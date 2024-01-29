@@ -11,3 +11,4 @@ git pull
 git add .
 git commit -m "Update master data!"
 git push
+python notification.py
