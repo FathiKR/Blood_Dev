@@ -7,3 +7,7 @@ cd /d C:\Work\Project\Dev\
 echo %CD%
 echo ### At source directory ###
 python master_data_processing.py
+git pull
+git add .
+git commit -m "Update master data!"
+git push

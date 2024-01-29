@@ -259,3 +259,5 @@ else:
     df_state_master.to_parquet("df_state_master.parquet.gzip", compression = "gzip")
     df_facility_master.to_parquet("df_facility_master.parquet.gzip", compression = "gzip")
     df_retaining_master.to_parquet("df_retain_master.parquet.gzip", compression = "gzip")
+    
+    print("Finish update master data!")
