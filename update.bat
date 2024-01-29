@@ -5,7 +5,7 @@ set today=%Year%-%Month%-%Day%
 echo ### Script is running on: %today% ###\
 cd /d C:\Work\Project\Dev\
 cd /d .env\Scripts
-Activate.ps1
+CALL activate.bat
 cd /d ..
 cd /d ..
 echo %CD%
